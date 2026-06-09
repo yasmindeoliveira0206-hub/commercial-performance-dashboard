@@ -1,6 +1,19 @@
-# Commercial Performance & Regional Distribution Dashboard 
+# English Version
 
-This repository presents a Business Intelligence solution designed to analyze commercial performance and geographic distribution within an automotive product line. The project integrates sales indicators, inventory replenishment behavior, and regional revenue concentration to transform transactional data into strategic insights that support commercial and operational decision-making.
+## Overview
+
+This project presents a Business Intelligence solution designed to analyze commercial performance and geographic distribution within an automotive product line. The dashboard integrates sales indicators, inventory replenishment behavior, and regional revenue concentration to transform transactional data into strategic insights that support commercial and operational decision-making.
+
+The solution provides an integrated view of sales performance and market penetration, enabling organizations to identify growth opportunities, optimize inventory planning, and strengthen regional commercial strategies.
+
+## Objectives
+
+* Analyze sales performance over time.
+* Monitor the relationship between sales demand and inventory replenishment.
+* Identify top-performing products and strategic categories.
+* Evaluate regional market contribution to overall business performance.
+* Support commercial planning through data-driven insights.
+* Enhance decision-making related to inventory allocation and market expansion.
 
 ## Business Context
 
@@ -34,8 +47,6 @@ A business-focused view designed to monitor key commercial indicators, track mar
 * Area charts comparing sales performance against purchasing activity over time.
 * Evaluation of inventory turnover efficiency.
 * Identification of seasonality patterns and significant demand fluctuations.
-
----
 
 ### 2. Regional Distribution Map
 
@@ -112,35 +123,57 @@ A geographic analytical view designed to identify consumption patterns and reven
 
   * Delivery of reliable KPIs to support initiatives related to inventory planning, commercial strategy, and regional expansion.
 
+## Repository Structure
+
+```text
+commercial-performance-dashboard/
+├── Commercial-Performance-Dashboard.pbix
+├── README.md
+└── images/
+    ├── sales-dashboard.png
+    └── regional-distribution-map.png
+```
+
 ---
 
-*This project is part of my portfolio in Business Intelligence, Commercial Analytics, and Data Visualization, demonstrating my ability to transform sales data into strategic insights that drive business performance.*
+*This project is part of my portfolio in Business Intelligence and Commercial Analytics, demonstrating my ability to transform sales data into strategic insights that support business growth and data-driven decision-making.*
 
+---
 
+# Versão em Português
 
-____________________________________________________________
+## Overview
 
-# Commercial Performance & Regional Distribution Dashboard 
+Este projeto apresenta uma solução de Business Intelligence desenvolvida para analisar a performance comercial e a distribuição geográfica de uma linha de produtos do setor automotivo. O dashboard integra indicadores de vendas, comportamento de reposição de estoque e concentração regional de receita, transformando dados transacionais em insights estratégicos para apoiar decisões comerciais e operacionais.
 
-Este repositório apresenta uma solução de Business Intelligence desenvolvida para analisar a performance comercial e a distribuição geográfica de uma linha de produtos do setor automotivo. O projeto integra indicadores de vendas, comportamento de reposição de estoque e concentração regional de receita, transformando dados transacionais em insights estratégicos para apoiar decisões comerciais e operacionais.
+A solução oferece uma visão integrada do desempenho comercial e da penetração de mercado, permitindo identificar oportunidades de crescimento, otimizar o planejamento de estoque e fortalecer estratégias regionais de vendas.
 
-## Contexto do Negócio
+## Objetivo
+
+* Analisar a performance comercial ao longo do tempo.
+* Monitorar a relação entre demanda de vendas e reposição de estoque.
+* Identificar produtos e categorias estratégicas com maior desempenho.
+* Avaliar a contribuição regional para os resultados do negócio.
+* Apoiar o planejamento comercial por meio de insights orientados por dados.
+* Aprimorar decisões relacionadas à alocação de estoque e expansão de mercado.
+
+## Business Context
 
 Em um mercado altamente competitivo, compreender o desempenho das vendas e sua relação com o abastecimento de estoque é fundamental para garantir disponibilidade de produtos, maximizar receita e identificar oportunidades de expansão regional.
 
 Este projeto foi desenvolvido para oferecer uma visão integrada do negócio por meio de dois painéis complementares: um dashboard de performance comercial e uma análise espacial da distribuição de mercado. Juntos, esses recursos permitem identificar tendências de consumo, avaliar a eficiência do planejamento de estoque e compreender a participação das diferentes regiões na composição dos resultados da empresa.
 
-## Estrutura dos Dashboards & Visões Analíticas
+## Dashboard Structure & Analytical Views
 
-### 1. Análise de Performance Comercial (Sales Dashboard)
+### 1. Análise de Performance Comercial
 
 Visão voltada ao acompanhamento dos principais indicadores de vendas, monitoramento do comportamento do mercado e suporte à tomada de decisão estratégica.
 
 #### Principais Métricas
 
-* Total de vendas realizadas no período (Total Sales).
-* Valor médio das vendas (Average Sales).
-* Volume de compras para reposição de estoque (Purchases).
+* Total de vendas realizadas no período.
+* Valor médio das vendas.
+* Volume de compras para reposição de estoque.
 * Ranking dos produtos com maior participação nas vendas.
 * Participação percentual das ofertas estratégicas (Core Offers).
 
@@ -153,28 +186,26 @@ Visão voltada ao acompanhamento dos principais indicadores de vendas, monitoram
 
 #### Análise de Tendência
 
-* Utilização de gráficos de área para comparar o comportamento das vendas e das compras ao longo do tempo.
-* Avaliação da eficiência do giro de estoque por período.
-* Identificação de sazonalidades e variações relevantes na demanda.
+* Comparação entre vendas e compras ao longo do tempo.
+* Avaliação da eficiência do giro de estoque.
+* Identificação de sazonalidades e oscilações relevantes na demanda.
 
----
+### 2. Mapa de Distribuição Regional
 
-### 2. Mapa de Distribuição Regional (Distribution Map)
-
-Visão analítica geográfica desenvolvida para identificar padrões de consumo e concentração de receita nos diferentes mercados regionais.
+Visão geográfica desenvolvida para identificar padrões de consumo e concentração de receita nos diferentes mercados regionais.
 
 #### Principais Métricas
 
 * Volume de vendas por estado.
 * Distribuição geográfica da receita.
-* Participação regional na composição dos resultados comerciais.
+* Participação regional nos resultados comerciais.
 * Penetração de mercado por segmento de produto.
 
 #### Funcionalidades
 
 * Visualização espacial da concentração de vendas.
-* Análise comparativa entre diferentes regiões do país.
-* Segmentação por tipo de produto:
+* Análise comparativa entre diferentes regiões.
+* Segmentação por categoria:
 
   * Imported;
   * Domestic;
@@ -182,58 +213,69 @@ Visão analítica geográfica desenvolvida para identificar padrões de consumo 
   * Passenger;
   * Premium;
   * Utility.
-* Pesquisa direta por SKU para análises específicas de portfólio.
+* Pesquisa direta por SKU.
 
 #### Análise Geográfica
 
-* Identificação dos mercados com maior relevância estratégica.
-* Avaliação da cobertura comercial da operação.
+* Identificação dos mercados mais relevantes.
+* Avaliação da cobertura comercial.
 * Suporte ao planejamento de expansão e distribuição.
 
 ## Tecnologias e Ferramentas
 
-* **Power BI:** Desenvolvimento dos dashboards e construção das visualizações interativas.
-* **DAX:** Criação de medidas para cálculo de indicadores comerciais, médias de vendas e inteligência temporal.
-* **Power Query (M Language):** Processos de ETL, padronização de dados e tratamento de inconsistências cadastrais.
+* **Power BI:** Desenvolvimento dos dashboards e visualizações interativas.
+* **DAX:** Criação de indicadores comerciais e medidas de inteligência temporal.
+* **Power Query (M Language):** Processos de ETL, padronização e tratamento dos dados.
 * **Modelagem Dimensional (Star Schema):** Estruturação do modelo analítico para otimização de desempenho.
-* **Mapas Integrados (Bing/TomTom):** Representação espacial dos dados comerciais com base em divisões geográficas estaduais.
+* **Integração com Bing/TomTom:** Representação geográfica dos dados comerciais.
 
 ## Desafios Técnicos Superados
 
 * **Alinhamento de Granularidade Temporal:**
 
-  * Integração de tabelas de fatos distintas, como vendas e compras de estoque, utilizando uma dimensão calendário única para garantir análises consistentes.
+  * Integração de tabelas de fatos distintas por meio de uma dimensão calendário única.
 
-* **Otimização de Análises Geográficas:**
+* **Otimização das Análises Geográficas:**
 
-  * Estruturação e padronização dos dados regionais para assegurar a correta renderização dos mapas e evitar ambiguidades de localização.
+  * Padronização dos dados regionais para garantir a correta renderização dos mapas.
 
 * **Modelagem de Indicadores Estratégicos:**
 
-  * Desenvolvimento de métricas dinâmicas para mensurar a representatividade das ofertas prioritárias dentro do mix de produtos.
+  * Desenvolvimento de métricas dinâmicas para mensurar a representatividade das ofertas prioritárias.
 
 * **Escalabilidade Analítica:**
 
-  * Construção de um modelo eficiente, capaz de suportar análises detalhadas e segmentações complexas sem perda de desempenho.
+  * Construção de um modelo capaz de suportar análises detalhadas sem comprometer a performance.
 
-## Principais Insights Obtidos
+## Principais Insights
 
 * **Eficiência no Giro de Estoque:**
 
-  * Identificação de períodos em que o crescimento das vendas não foi acompanhado por aumentos proporcionais nas compras, indicando melhor aproveitamento do estoque disponível.
+  * Identificação de períodos em que o crescimento das vendas não foi acompanhado por aumentos proporcionais nas compras.
 
 * **Predominância de Categorias Estratégicas:**
 
-  * Determinação dos segmentos responsáveis pela maior participação no volume comercial, orientando decisões sobre mix de produtos.
+  * Determinação dos segmentos responsáveis pela maior participação nos resultados comerciais.
 
 * **Concentração Regional de Receita:**
 
-  * Identificação dos estados com maior relevância para os resultados da empresa, permitindo direcionar esforços comerciais de forma mais assertiva.
+  * Identificação dos mercados com maior impacto nos resultados do negócio.
 
 * **Aprimoramento da Tomada de Decisão:**
 
-  * Disponibilização de indicadores confiáveis para apoiar ações relacionadas a estoque, planejamento comercial e expansão regional.
+  * Disponibilização de indicadores confiáveis para apoiar iniciativas relacionadas a estoque, estratégia comercial e expansão regional.
+
+## Estrutura do Repositório
+
+```text
+commercial-performance-dashboard/
+├── Commercial-Performance-Dashboard.pbix
+├── README.md
+└── images/
+    ├── sales-dashboard.png
+    └── regional-distribution-map.png
+```
 
 ---
 
-*Este projeto faz parte do meu portfólio em Business Intelligence, Analytics Comercial e Visualização de Dados, demonstrando minha capacidade de transformar informações de vendas em insights estratégicos que impulsionam resultados de negócio.*
+*Este projeto integra meu portfólio em Business Intelligence e Analytics Comercial, demonstrando minha capacidade de transformar dados de vendas em insights estratégicos que apoiam o crescimento do negócio e a tomada de decisão baseada em dados.*
